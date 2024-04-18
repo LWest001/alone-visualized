@@ -14,6 +14,7 @@ export function DaysScatter() {
       yAxisLabel="Season"
       yAxisProps={{ domain: [0, 10], tickCount: 11, interval: 0 }}
       xAxisProps={{ domain: [0, 100], tickCount: 11, interval: 0 }}
+      scatterProps={{ shape: <circle r={6} /> }}
     />
   );
 }

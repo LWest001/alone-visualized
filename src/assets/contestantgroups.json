@@ -1,7 +1,7 @@
 [
   {
     "name": "1",
-    "color":"red.1",
+    "color": "blue.9",
     "data": [
       {
         "name": "Alan Kay",
@@ -147,7 +147,7 @@
   },
   {
     "name": "2",
-    "color":"red.3",
+    "color": "green.9",
     "data": [
       {
         "name": "David McIntyre",
@@ -293,7 +293,7 @@
   },
   {
     "name": "3",
-    "color":"red.7",
+    "color": "orange.9",
     "data": [
       {
         "name": "Zach Fowler",
@@ -439,7 +439,7 @@
   },
   {
     "name": "4",
-    "color":"red.5",
+    "color": "yellow.9",
     "data": [
       {
         "name": "Jim Baird",
@@ -641,7 +641,7 @@
   },
   {
     "name": "5",
-    "color":"red.2",
+    "color": "green.5",
     "data": [
       {
         "name": "Sam Larson (S5)",
@@ -787,7 +787,7 @@
   },
   {
     "name": "6",
-    "color":"red.5",
+    "color": "yellow.9",
     "data": [
       {
         "name": "Jordan Jonas",
@@ -933,7 +933,7 @@
   },
   {
     "name": "7",
-    "color":"red.9",
+    "color": "red.9",
     "data": [
       {
         "name": "Roland Welker",
@@ -1079,7 +1079,7 @@
   },
   {
     "name": "8",
-    "color":"red.4",
+    "color": "yellow.5",
     "data": [
       {
         "name": "Clay Hayes",
@@ -1225,7 +1225,7 @@
   },
   {
     "name": "9",
-    "color":"red.5",
+    "color": "yellow.9",
     "data": [
       {
         "name": "Juan Pablo Quiñonez",
@@ -1371,7 +1371,7 @@
   },
   {
     "name": "10",
-    "color":"red.3",
+    "color": "green.9",
     "data": [
       {
         "name": "Alan Tenta",

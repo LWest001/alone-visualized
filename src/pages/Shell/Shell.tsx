@@ -37,35 +37,44 @@ export function Shell() {
   function onChange(to: "items" | "survived" | "/" | undefined) {
     setActive(to);
     to && navigate(to);
-    toggle()
+    toggle();
   }
 
   return (
-    <AppShell
-      header={{ height: 60 }}
-      navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }}
-      padding="md"
-    >
-      <AppShell.Header>
-        <Group h="100%">
-          <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-          <Flex h="100%" p="md">
-            <Link to="/" onChange={() => onChange("/")}>
-              <Image src="/logo.png" height={"100%"} />
-            </Link>
-          </Flex>
-        </Group>
-      </AppShell.Header>
+    <ActiveContext.Provider value={[active, setActive]}>
+      <AppShell
+        header={{ height: 60 }}
+        navbar={{
+          width: 300,
+          breakpoint: "sm",
+          collapsed: { mobile: !opened },
+        }}
+        padding="md"
+      >
+        <AppShell.Header>
+          <Group h="100%">
+            <Burger
+              opened={opened}
+              onClick={toggle}
+              hiddenFrom="sm"
+              size="sm"
+            />
+            <Flex h="100%" p="md">
+              <Link to="/" onChange={() => onChange("/")}>
+                <Image src="/logo.png" height={"100%"} />
+              </Link>
+            </Flex>
+          </Group>
+        </AppShell.Header>
 
-      <AppShell.Navbar p="md">
-        <Navbar onChange={onChange} value={active} />
-      </AppShell.Navbar>
+        <AppShell.Navbar p="md">
+          <Navbar onChange={onChange} value={active} />
+        </AppShell.Navbar>
 
-      <AppShell.Main h="100%">
-        <ActiveContext.Provider value={[active, setActive]}>
+        <AppShell.Main h="100%">
           <Outlet />
-        </ActiveContext.Provider>
-      </AppShell.Main>
-    </AppShell>
+        </AppShell.Main>
+      </AppShell>
+    </ActiveContext.Provider>
   );
 }

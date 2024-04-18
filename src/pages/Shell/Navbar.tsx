@@ -19,7 +19,7 @@ function Navbar({ onChange, value }: NavbarProps) {
         { label: "Days survived", value: "survived" },
         { label: "Items", value: "items" },
       ]}
-    ></SegmentedControl>
+    />
   );
 }
 
