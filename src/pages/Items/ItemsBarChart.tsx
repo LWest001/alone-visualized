@@ -120,6 +120,7 @@ export function ItemsBarChart() {
                       key={item.id}
                       value={item.name}
                       label={capitalize(item.name)}
+                      color="violet.6"
                     />
                   ))}
               </Group>
@@ -158,6 +159,20 @@ export function ItemsBarChart() {
         tooltipProps={{
           position: { x: undefined },
         }}
+        referenceLines={
+          season !== "All"
+            ? [
+                {
+                  x: contestants.filter((c) => c.season === season).length,
+                  color: "red.5",
+                  label: `${
+                    contestants.filter((c) => c.season === season).length
+                  } contestants`,
+                  labelPosition: "insideBottomRight",
+                },
+              ]
+            : []
+        }
       />
     </Stack>
   );

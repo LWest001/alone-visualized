@@ -462,7 +462,7 @@
     "winner": true,
     "reason_tapped": "Victor",
     "season": "4",
-    "items": [0, 12, 7, 10, 8, 6, 3, 17, 11, 1]
+    "items": [4,0, 12, 7, 10, 8, 6, 3, 17, 11, 1]
   },
   {
     "name": "Ted Baird",
@@ -477,7 +477,7 @@
     "winner": true,
     "reason_tapped": "Victor",
     "season": "4",
-    "items": [0, 12, 7, 10, 8, 6, 3, 17, 11, 1]
+    "items": [4,0, 12, 7, 10, 8, 6, 3, 17, 11, 1]
   },
   {
     "name": "Pete Brockdorff",
@@ -492,7 +492,7 @@
     "winner": false,
     "reason_tapped": "Jointly decided the cost of the game wasn't worth it; Pete had severe GERD",
     "season": "4",
-    "items": [10, 6, 7, 8, 11, 10, 16, 0, 1, 3]
+    "items": [4,10, 6, 7, 8, 11, 10, 16, 0, 1, 3]
   },
   {
     "name": "Sam Brockdorff",
@@ -507,7 +507,7 @@
     "winner": false,
     "reason_tapped": "Jointly decided the cost of the game wasn't worth it; Pete had severe GERD",
     "season": "4",
-    "items": [10, 6, 7, 8, 11, 10, 16, 0, 1, 3]
+    "items": [4,10, 6, 7, 8, 11, 10, 16, 0, 1, 3]
   },
   {
     "name": "Brooke Whipple",
@@ -522,7 +522,7 @@
     "winner": false,
     "reason_tapped": "Felt too exhausted and drained to go on",
     "season": "4",
-    "items": [0, 3, 10, 10, 22, 11, 11, 1, 6, 18]
+    "items": [4,0, 3, 10, 10, 22, 11, 11, 1, 6, 18]
   },
   {
     "name": "Dave Whipple",
@@ -537,7 +537,7 @@
     "winner": false,
     "reason_tapped": "Felt too exhausted and drained to go on",
     "season": "4",
-    "items": [0, 3, 10, 10, 22, 11, 11, 1, 6, 18]
+    "items": [4,0, 3, 10, 10, 22, 11, 11, 1, 6, 18]
   },
   {
     "name": "Chris Wilkes",
@@ -552,7 +552,7 @@
     "winner": false,
     "reason_tapped": "Missed family and felt guilty for having left them behind",
     "season": "4",
-    "items": [14, 14, 1, 3, 3, 6, 10, 10, 0, 7]
+    "items": [4,14, 14, 1, 3, 3, 6, 10, 10, 0, 7]
   },
   {
     "name": "Brody Wilkes",
@@ -567,7 +567,7 @@
     "winner": false,
     "reason_tapped": "Missed family and felt guilty for having left them behind",
     "season": "4",
-    "items": [14, 14, 1, 3, 3, 6, 10, 10, 0, 7]
+    "items": [4,14, 14, 1, 3, 3, 6, 10, 10, 0, 7]
   },
   {
     "name": "Shannon Bosdell",
@@ -582,7 +582,7 @@
     "winner": false,
     "reason_tapped": "Shannon sustained a lower back injury",
     "season": "4",
-    "items": [7, 10, 6, 0, 3, 12, 17, 5, 11, 11]
+    "items": [4,7, 10, 6, 0, 3, 12, 17, 5, 11, 11]
   },
   {
     "name": "Jesse Bosdell",
@@ -597,7 +597,7 @@
     "winner": false,
     "reason_tapped": "Shannon sustained a lower back injury",
     "season": "4",
-    "items": [7, 10, 6, 0, 3, 12, 17, 5, 11, 11]
+    "items": [4,7, 10, 6, 0, 3, 12, 17, 5, 11, 11]
   },
   {
     "name": "Alex Ribar",
@@ -612,7 +612,7 @@
     "winner": false,
     "reason_tapped": "Were not mentally prepared",
     "season": "4",
-    "items": [12, 16, 7, 1, 17, 6, 3, 10, 0, 11]
+    "items": [4,12, 16, 7, 1, 17, 6, 3, 10, 0, 11]
   },
   {
     "name": "Logan Ribar",
@@ -627,7 +627,7 @@
     "winner": false,
     "reason_tapped": "Were not mentally prepared",
     "season": "4",
-    "items": [12, 16, 7, 1, 17, 6, 3, 10, 0, 11]
+    "items": [4,12, 16, 7, 1, 17, 6, 3, 10, 0, 11]
   },
   {
     "name": "Brad Richardson",
@@ -642,7 +642,7 @@
     "winner": false,
     "reason_tapped": "Josh injured his ankle",
     "season": "4",
-    "items": [0, 14, 14, 5, 1, 10, 6, 3, 0, 11]
+    "items": [4,1, 14, 14, 5, 1, 10, 6, 3, 0, 11]
   },
   {
     "name": "Josh Richardson",
@@ -657,7 +657,7 @@
     "winner": false,
     "reason_tapped": "Josh injured his ankle",
     "season": "4",
-    "items": [0, 14, 14, 5, 1, 10, 6, 3, 0, 11]
+    "items": [4,1, 14, 14, 5, 1, 10, 6, 3, 0, 11]
   },
   {
     "name": "Sam Larson (S5)",
@@ -1317,7 +1317,7 @@
     "winner": false,
     "reason_tapped": "Starvation",
     "season": "9",
-    "items": [2, 10, 1, 0, 17, 4, 12, 3, 8, 12]
+    "items": [2, 10, 1, 0, 17, 4, 6, 3, 8, 12]
   },
   {
     "name": "Jessie Krebs",
@@ -1482,7 +1482,7 @@
     "medically_evacuated": false,
     "winner": false,
     "season": "10",
-    "items": [2, 4, 3, 1, 17, 12, 16, 8, 12, 10]
+    "items": [2, 4, 3, 1, 17, 6, 16, 8, 12, 10]
   },
   {
     "name": "Cade Cole",
