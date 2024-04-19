@@ -1,3 +1,4 @@
+import { ActionIcon } from "@mantine/core";
 import { IconEye, IconEyeClosed } from "@tabler/icons-react";
 
 interface DisplayToggleProps {
@@ -6,10 +7,16 @@ interface DisplayToggleProps {
 }
 
 function DisplayToggle({ toggleState, onClick }: DisplayToggleProps) {
-  return toggleState ? (
-    <IconEye onClick={onClick} />
-  ) : (
-    <IconEyeClosed onClick={onClick} />
+  return (
+    <ActionIcon
+      variant="transparent"
+      onClick={onClick}
+      px={4}
+      m={0}
+      radius={"100%"}
+    >
+      {toggleState ? <IconEye /> : <IconEyeClosed />}
+    </ActionIcon>
   );
 }
 

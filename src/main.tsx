@@ -10,12 +10,14 @@ import {
 } from "react-router-dom";
 import DaysSurvived from "./pages/DaysSurvived/DaysSurvived.tsx";
 import { ItemsBarChart } from "./pages/Items/ItemsBarChart.tsx";
+import Map from "./pages/Map.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="/survived/:chart?" element={<DaysSurvived />}></Route>
       <Route path="/items" element={<ItemsBarChart />}></Route>
+      <Route path="/map" element={<Map />}></Route>
     </Route>
   )
 );

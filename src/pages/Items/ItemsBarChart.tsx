@@ -99,10 +99,21 @@ export function ItemsBarChart() {
           </Group>
           <Box display={opened ? "block" : "none"}>
             <Button.Group mb={"md"}>
-              <Button onClick={handleSelectAll} w={120}>
+              <Button
+                onClick={handleSelectAll}
+                w={120}
+                color={"violet.6"}
+                size="compact-sm"
+              >
                 Select all
               </Button>
-              <Button onClick={handleDeselectAll} w={120} variant="outline">
+              <Button
+                onClick={handleDeselectAll}
+                w={120}
+                variant="outline"
+                color={"violet.6"}
+                size="compact-sm"
+              >
                 Deselect all
               </Button>
             </Button.Group>
