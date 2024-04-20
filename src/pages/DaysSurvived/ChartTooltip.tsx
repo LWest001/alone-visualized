@@ -3,7 +3,7 @@ import { ChartTooltipProps } from "./DaysBarChart";
 import { useSearchParams } from "react-router-dom";
 import items from "../../assets/items.json";
 
-export function ChartTooltip({ label, payload }: ChartTooltipProps) {
+export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
   const [searchParams] = useSearchParams();
   if (!payload) return null;
   const s = searchParams.get("s");
@@ -12,7 +12,6 @@ export function ChartTooltip({ label, payload }: ChartTooltipProps) {
   }
 
   const itemNames = payload.items.map((id) => getItemName(id)).sort();
-
 
   const { season, name } = payload;
   return (
@@ -23,6 +22,7 @@ export function ChartTooltip({ label, payload }: ChartTooltipProps) {
       withBorder
       className="ChartTooltip"
       maw={"calc(60vw)"}
+      style={style}
     >
       <Card.Section>
         <Image

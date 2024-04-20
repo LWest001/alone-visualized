@@ -1,5 +1,5 @@
 import { BarChart } from "@mantine/charts";
-import { Chip, Group, Paper, Stack } from "@mantine/core";
+import { Chip, Group, MantineStyleProp, Paper, Stack } from "@mantine/core";
 import data from "../../assets/contestants.json";
 import { useSearchParams } from "react-router-dom";
 import { Contestant } from "../../contestant";
@@ -10,6 +10,7 @@ import SeasonSelector from "../../components/SeasonSelector";
 export interface ChartTooltipProps {
   label: string;
   payload: Contestant | undefined;
+  style?: MantineStyleProp;
 }
 
 export function DaysBarChart() {
