@@ -6,9 +6,10 @@ export interface Contestant {
   "state/province": string;
   country: string;
   status: number;
-  "medically_evacuated": boolean;
+  medically_evacuated: boolean;
   winner: boolean;
-  "reason_tapped": string;
+  reason_tapped: string;
   season: string;
-  items: number[]
+  items: number[];
+  coords: [number, number];
 }

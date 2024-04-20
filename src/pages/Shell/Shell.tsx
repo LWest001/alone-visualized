@@ -6,16 +6,16 @@ import { createContext, useEffect, useState } from "react";
 
 export const ActiveContext = createContext<
   [
-    "items" | "survived" | "/" | undefined,
+    string | undefined,
     React.Dispatch<
-      React.SetStateAction<"items" | "survived" | "/" | undefined>
+      React.SetStateAction<string | undefined>
     > | null
   ]
 >([undefined, null]);
 
 export function Shell() {
   const [opened, { toggle }] = useDisclosure();
-  const [active, setActive] = useState<"items" | "survived" | "/" | undefined>(
+  const [active, setActive] = useState<string | undefined>(
     undefined
   );
   const navigate = useNavigate();
@@ -34,7 +34,7 @@ export function Shell() {
     }
   }, [active, location.pathname]);
 
-  function onChange(to: "items" | "survived" | "/" | undefined) {
+  function onChange(to: string | undefined) {
     setActive(to);
     to && navigate(to);
     toggle();

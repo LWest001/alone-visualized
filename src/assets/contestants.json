@@ -13,7 +13,7 @@
     "reason_tapped": "Victor",
     "season": "1",
     "items": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-    "coords": [34.876, -83.9546]
+    "coords": [-83.9546, 34.876]
   },
   {
     "name": "Sam Larson",
@@ -29,7 +29,7 @@
     "reason_tapped": "Lost the mind game",
     "season": "1",
     "items": [10, 1, 2, 3, 4, 6, 12, 8, 11, 9],
-    "coords": [40.8099, -96.6784]
+    "coords": [-96.6784, 40.8099]
   },
   {
     "name": "Mitch Mitchell",
@@ -45,7 +45,7 @@
     "reason_tapped": "Realized he should actually be around for his mother's cancer",
     "season": "1",
     "items": [1, 2, 14, 3, 4, 6, 7, 12, 9, 15],
-    "coords": [42.08728, -71.474777]
+    "coords": [-71.474777, 42.08728]
   },
   {
     "name": "Lucas Miller",
@@ -61,7 +61,7 @@
     "reason_tapped": "Felt content with what he had done",
     "season": "1",
     "items": [10, 0, 1, 2, 3, 4, 6, 10, 11, 9],
-    "coords": [42.3945, -91.7578]
+    "coords": [-91.7578, 42.3945]
   },
   {
     "name": "Dustin Feher",
@@ -77,7 +77,7 @@
     "reason_tapped": "Fear of storm",
     "season": "1",
     "items": [16, 1, 2, 3, 4, 5, 6, 7, 13, 9],
-    "coords": [40.4397, -79.9763]
+    "coords": [-79.9763, 40.4397]
   },
   {
     "name": "Brant McGee",
@@ -93,7 +93,7 @@
     "reason_tapped": "Consuming salt water",
     "season": "1",
     "items": [10, 16, 1, 2, 3, 4, 6, 12, 11, 9],
-    "coords": [35.3594, -80.1915]
+    "coords": [-80.1915, 35.3594]
   },
   {
     "name": "Wayne Russell",
@@ -109,7 +109,7 @@
     "reason_tapped": "Fear of bears",
     "season": "1",
     "items": [10, 16, 0, 1, 2, 3, 4, 6, 9, 17],
-    "coords": [45.2806, -66.0761]
+    "coords": [-66.0761, 45.2806]
   },
   {
     "name": "Joe Robinet",
@@ -125,7 +125,7 @@
     "reason_tapped": "Loss of ferro rod",
     "season": "1",
     "items": [10, 16, 1, 2, 3, 4, 6, 7, 11, 9],
-    "coords": [42.2833, -83]
+    "coords": [-83, 42.2833]
   },
   {
     "name": "Chris Weatherman",
@@ -141,7 +141,7 @@
     "reason_tapped": "Fear of wolves",
     "season": "1",
     "items": [0, 1, 2, 3, 4, 5, 6, 12, 9, 15],
-    "coords": [28.9273, -81.665]
+    "coords": [-81.665, 28.9273]
   },
   {
     "name": "Josh Chavez",
@@ -157,7 +157,7 @@
     "reason_tapped": "Fear of bears",
     "season": "1",
     "items": [10, 16, 0, 1, 2, 14, 3, 4, 6, 12],
-    "coords": [39.0448, -82.6458]
+    "coords": [-82.6458, 39.0448]
   },
   {
     "name": "David McIntyre",
@@ -173,7 +173,7 @@
     "reason_tapped": "Victor",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 14, 7, 11],
-    "coords": [42.8852, -85.5926]
+    "coords": [-85.5926, 42.8852]
   },
   {
     "name": "Larry Roberts",
@@ -189,7 +189,7 @@
     "reason_tapped": "Hunger and mental breakdown",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 16, 11],
-    "coords": [45.6875, -92.9655]
+    "coords": [-92.9655, 45.6875]
   },
   {
     "name": "Jose Martinez Amoedo",
@@ -205,7 +205,7 @@
     "reason_tapped": "Fell off kayak into river",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 17, 11],
-    "coords": [38.19236, -0.55518]
+    "coords": [-0.55518, 38.19236]
   },
   {
     "name": "Nicole Apelian",
@@ -221,7 +221,7 @@
     "reason_tapped": "Missed her kids",
     "season": "2",
     "items": [9, 4, 18, 6, 0, 1, 2, 7, 11, 11],
-    "coords": [45.5371, -122.65]
+    "coords": [-122.65, 45.5371]
   },
   {
     "name": "Justin Vititoe",
@@ -237,7 +237,7 @@
     "reason_tapped": "Had nothing left to accomplish",
     "season": "2",
     "items": [17, 4, 3, 19, 0, 1, 2, 20, 11, 11],
-    "coords": [33.3645, -82.0708]
+    "coords": [-82.0708, 33.3645]
   },
   {
     "name": "Randy Champagne",
@@ -253,7 +253,7 @@
     "reason_tapped": "Did not like being alone",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 12, 8],
-    "coords": [37.9228, -111.4319]
+    "coords": [-111.4319, 37.9228]
   },
   {
     "name": "Mike Lowe",
@@ -269,7 +269,7 @@
     "reason_tapped": "Missed his wife",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 11, 11],
-    "coords": [37.5017, -108.66]
+    "coords": [-108.66, 37.5017]
   },
   {
     "name": "Tracy Wilson",
@@ -285,7 +285,7 @@
     "reason_tapped": "Bear scare",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 11, 11],
-    "coords": [33.5303, -81.7271]
+    "coords": [-81.7271, 33.5303]
   },
   {
     "name": "Mary Kate Green",
@@ -301,7 +301,7 @@
     "reason_tapped": "Split tendon with axe",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 7, 10, 11],
-    "coords": [59.653, -151.5255]
+    "coords": [-151.5255, 59.653]
   },
   {
     "name": "Desmond White",
@@ -317,7 +317,7 @@
     "reason_tapped": "Bear scare",
     "season": "2",
     "items": [9, 4, 3, 6, 0, 1, 2, 14, 7, 11],
-    "coords": [32.9363, -111.5254]
+    "coords": [-111.5254, 32.9363]
   },
   {
     "name": "Zach Fowler",
@@ -333,7 +333,7 @@
     "reason_tapped": "Victor",
     "season": "3",
     "items": [21, 2, 1, 3, 4, 13, 6, 16, 0, 17],
-    "coords": [44.29497370422067, -69.26034568616878]
+    "coords": [-69.26034568616878, 44.29497370422067]
   },
   {
     "name": "Carleigh Fairchild",
@@ -349,7 +349,7 @@
     "reason_tapped": "BMI too low",
     "season": "3",
     "items": [16, 0, 2, 3, 4, 5, 6, 12, 9, 11],
-    "coords": [55.964, -133.6662]
+    "coords": [-133.6662, 55.964]
   },
   {
     "name": "Megan Hanacek",
@@ -365,7 +365,7 @@
     "reason_tapped": "2 broken teeth (molars)/jaw pain",
     "season": "3",
     "items": [2, 14, 1, 9, 3, 7, 6, 16, 4, 11],
-    "coords": [50.5903, -127.0847]
+    "coords": [-127.0847, 50.5903]
   },
   {
     "name": "Dave Nessia",
@@ -381,7 +381,7 @@
     "reason_tapped": "Systolic pressure too low",
     "season": "3",
     "items": [1, 2, 3, 4, 6, 12, 7, 8, 9, 11],
-    "coords": [40.7776, -111.9311]
+    "coords": [-111.9311, 40.7776]
   },
   {
     "name": "Callie North",
@@ -397,7 +397,7 @@
     "reason_tapped": "Her journey was complete",
     "season": "3",
     "items": [9, 4, 2, 3, 6, 16, 10, 0, 11, 11],
-    "coords": [48.48743151069722, -122.89597186976822]
+    "coords": [-122.89597186976822, 48.48743151069722]
   },
   {
     "name": "Greg Ovens",
@@ -413,7 +413,7 @@
     "reason_tapped": "Hypothermia",
     "season": "3",
     "items": [9, 16, 3, 6, 12, 1, 0, 2, 4, 11],
-    "coords": [50.15525138352799, -115.80832053820676]
+    "coords": [-115.80832053820676, 50.15525138352799]
   },
   {
     "name": "Dan Wowak",
@@ -429,7 +429,7 @@
     "reason_tapped": "Missed family",
     "season": "3",
     "items": [1, 9, 0, 2, 20, 16, 3, 4, 6, 11],
-    "coords": [40.8126, -76.1382]
+    "coords": [-76.1382, 40.8126]
   },
   {
     "name": "Britt Ahart",
@@ -445,7 +445,7 @@
     "reason_tapped": "Missed family",
     "season": "3",
     "items": [9, 17, 16, 6, 3, 4, 2, 12, 0, 8],
-    "coords": [41.282, -81.2223]
+    "coords": [-81.2223, 41.282]
   },
   {
     "name": "Zach Gault",
@@ -461,7 +461,7 @@
     "reason_tapped": "Cut arm with ax",
     "season": "3",
     "items": [2, 3, 6, 15, 4, 0, 16, 1, 9, 11],
-    "coords": [43.8667, -79.8667]
+    "coords": [-79.8667, 43.8667]
   },
   {
     "name": "Jim Shields",
@@ -477,7 +477,7 @@
     "reason_tapped": "Regretted leaving family",
     "season": "3",
     "items": [2, 1, 0, 9, 4, 16, 3, 6, 11, 11],
-    "coords": [40.1777, -74.9212]
+    "coords": [-74.9212, 40.1777]
   },
   {
     "name": "Jim Baird",
@@ -493,7 +493,7 @@
     "reason_tapped": "Victor",
     "season": "4",
     "items": [4, 0, 12, 7, 10, 8, 6, 3, 17, 11, 1],
-    "coords": [43.7417, -79.3733]
+    "coords": [-79.3733, 43.7417]
   },
   {
     "name": "Ted Baird",
@@ -509,7 +509,7 @@
     "reason_tapped": "Victor",
     "season": "4",
     "items": [4, 0, 12, 7, 10, 8, 6, 3, 17, 11, 1],
-    "coords": [43.7417, -79.3733]
+    "coords": [-79.3733, 43.7417]
   },
   {
     "name": "Pete Brockdorff",
@@ -525,7 +525,7 @@
     "reason_tapped": "Jointly decided the cost of the game wasn't worth it; Pete had severe GERD",
     "season": "4",
     "items": [4, 10, 6, 7, 8, 11, 10, 16, 0, 1, 3],
-    "coords": [39.1423, -77.4102]
+    "coords": [-77.4102, 39.1423]
   },
   {
     "name": "Sam Brockdorff",
@@ -541,7 +541,7 @@
     "reason_tapped": "Jointly decided the cost of the game wasn't worth it; Pete had severe GERD",
     "season": "4",
     "items": [4, 10, 6, 7, 8, 11, 10, 16, 0, 1, 3],
-    "coords": [39.1423, -77.4102]
+    "coords": [-77.4102, 39.1423]
   },
   {
     "name": "Brooke Whipple",
@@ -557,7 +557,7 @@
     "reason_tapped": "Felt too exhausted and drained to go on",
     "season": "4",
     "items": [4, 0, 3, 10, 10, 22, 11, 11, 1, 6, 18],
-    "coords": [64.9749, -147.609]
+    "coords": [-147.609, 64.9749]
   },
   {
     "name": "Dave Whipple",
@@ -573,7 +573,7 @@
     "reason_tapped": "Felt too exhausted and drained to go on",
     "season": "4",
     "items": [4, 0, 3, 10, 10, 22, 11, 11, 1, 6, 18],
-    "coords": [64.9749, -147.609]
+    "coords": [-147.609, 64.9749]
   },
   {
     "name": "Chris Wilkes",
@@ -589,7 +589,7 @@
     "reason_tapped": "Missed family and felt guilty for having left them behind",
     "season": "4",
     "items": [4, 14, 14, 1, 3, 3, 6, 10, 10, 0, 7],
-    "coords": [31.3074, -89.317]
+    "coords": [-89.317, 31.3074]
   },
   {
     "name": "Brody Wilkes",
@@ -605,7 +605,7 @@
     "reason_tapped": "Missed family and felt guilty for having left them behind",
     "season": "4",
     "items": [4, 14, 14, 1, 3, 3, 6, 10, 10, 0, 7],
-    "coords": [30.9339, -90.5153]
+    "coords": [-90.5153, 30.9339]
   },
   {
     "name": "Shannon Bosdell",
@@ -621,7 +621,7 @@
     "reason_tapped": "Shannon sustained a lower back injury",
     "season": "4",
     "items": [4, 7, 10, 6, 0, 3, 12, 17, 5, 11, 11],
-    "coords": [56.3317, -132.0223]
+    "coords": [-132.0223, 56.3317]
   },
   {
     "name": "Jesse Bosdell",
@@ -637,7 +637,7 @@
     "reason_tapped": "Shannon sustained a lower back injury",
     "season": "4",
     "items": [4, 7, 10, 6, 0, 3, 12, 17, 5, 11, 11],
-    "coords": [44.76584448620986, -69.71576180022487]
+    "coords": [-69.71576180022487, 44.76584448620986]
   },
   {
     "name": "Alex Ribar",
@@ -653,7 +653,7 @@
     "reason_tapped": "Were not mentally prepared",
     "season": "4",
     "items": [4, 12, 16, 7, 1, 17, 6, 3, 10, 0, 11],
-    "coords": [44.43829329402615, -69.27698743382193]
+    "coords": [-69.27698743382193, 44.43829329402615]
   },
   {
     "name": "Logan Ribar",
@@ -669,7 +669,7 @@
     "reason_tapped": "Were not mentally prepared",
     "season": "4",
     "items": [4, 12, 16, 7, 1, 17, 6, 3, 10, 0, 11],
-    "coords": [44.389060652950505, -69.30020238910485]
+    "coords": [-69.30020238910485, 44.389060652950505]
   },
   {
     "name": "Brad Richardson",
@@ -685,7 +685,7 @@
     "reason_tapped": "Josh injured his ankle",
     "season": "4",
     "items": [4, 1, 14, 14, 5, 1, 10, 6, 3, 0, 11],
-    "coords": [42.4239, -88.1844]
+    "coords": [-88.1844, 42.4239]
   },
   {
     "name": "Josh Richardson",
@@ -701,7 +701,7 @@
     "reason_tapped": "Josh injured his ankle",
     "season": "4",
     "items": [4, 1, 14, 14, 5, 1, 10, 6, 3, 0, 11],
-    "coords": [42.4239, -88.1844]
+    "coords": [-88.1844, 42.4239]
   },
   {
     "name": "Sam Larson (S5)",
@@ -717,7 +717,7 @@
     "reason_tapped": "Victor",
     "season": "5",
     "items": [0, 1, 3, 4, 17, 11, 11, 2, 16, 8],
-    "coords": [40.8099, -96.6784]
+    "coords": [-96.6784, 40.8099]
   },
   {
     "name": "Britt Ahart (S5)",
@@ -733,7 +733,7 @@
     "reason_tapped": "Missed his family",
     "season": "5",
     "items": [9, 17, 16, 6, 3, 4, 2, 12, 0, 8],
-    "coords": [41.282, -81.2223]
+    "coords": [-81.2223, 41.282]
   },
   {
     "name": "Larry Roberts (S5)",
@@ -749,7 +749,7 @@
     "reason_tapped": "Missed his family",
     "season": "5",
     "items": [9, 2, 3, 4, 16, 0, 6, 8, 11, 11],
-    "coords": [45.6875, -92.9655]
+    "coords": [-92.9655, 45.6875]
   },
   {
     "name": "Dave Nessia (S5)",
@@ -765,7 +765,7 @@
     "reason_tapped": "Just felt right",
     "season": "5",
     "items": [1, 2, 3, 4, 6, 12, 7, 8, 9, 11],
-    "coords": [40.7776, -111.9311]
+    "coords": [-111.9311, 40.7776]
   },
   {
     "name": "Randy Champagne (S5)",
@@ -781,7 +781,7 @@
     "reason_tapped": "Lonely",
     "season": "5",
     "items": [9, 1, 2, 3, 12, 8, 6, 4, 0, 11],
-    "coords": [37.9228, -111.4319]
+    "coords": [-111.4319, 37.9228]
   },
   {
     "name": "Brooke Whipple (S5)",
@@ -797,7 +797,7 @@
     "reason_tapped": "Lonely",
     "season": "5",
     "items": [1, 0, 2, 6, 4, 17, 3, 12, 11, 8],
-    "coords": [64.9749, -147.609]
+    "coords": [-147.609, 64.9749]
   },
   {
     "name": "Jesse Bosdell (S5)",
@@ -813,7 +813,7 @@
     "reason_tapped": "Constipation/possible fecal impaction",
     "season": "5",
     "items": [2, 9, 4, 11, 5, 3, 12, 6, 0, 1],
-    "coords": [44.76584448620986, -69.71576180022487]
+    "coords": [-69.71576180022487, 44.76584448620986]
   },
   {
     "name": "Nicole Apelian (S5)",
@@ -829,7 +829,7 @@
     "reason_tapped": "MS attack",
     "season": "5",
     "items": [9, 0, 2, 4, 17, 3, 6, 7, 8, 11],
-    "coords": [46.6839, -123.738]
+    "coords": [-123.738, 46.6839]
   },
   {
     "name": "Brad Richardson (S5)",
@@ -845,7 +845,7 @@
     "reason_tapped": "Had no food the whole time",
     "season": "5",
     "items": [1, 0, 9, 8, 6, 12, 2, 4, 18, 11],
-    "coords": [42.4239, -88.1844]
+    "coords": [-88.1844, 42.4239]
   },
   {
     "name": "Carleigh Fairchild (S5)",
@@ -861,7 +861,7 @@
     "reason_tapped": "Fish hook in hand",
     "season": "5",
     "items": [16, 0, 2, 3, 4, 5, 6, 12, 9, 11],
-    "coords": [61.1508, -149.1091]
+    "coords": [-149.1091, 61.1508]
   },
   {
     "name": "Jordan Jonas",
@@ -877,7 +877,7 @@
     "reason_tapped": "Victor",
     "season": "6",
     "items": [16, 0, 1, 2, 18, 4, 6, 12, 8, 17],
-    "coords": [37.4003, -79.1909]
+    "coords": [-79.1909, 37.4003]
   },
   {
     "name": "Woniya Thibeault",
@@ -893,7 +893,7 @@
     "reason_tapped": "Starvation",
     "season": "6",
     "items": [2, 3, 4, 9, 12, 0, 17, 6, 16, 11],
-    "coords": [39.2238, -121.0522]
+    "coords": [-121.0522, 39.2238]
   },
   {
     "name": "Nathan Donnelly",
@@ -909,7 +909,7 @@
     "reason_tapped": "Shelter fire",
     "season": "6",
     "items": [2, 3, 9, 6, 9, 7, 1, 11, 16, 12],
-    "coords": [48.523144110802974, -122.91142139416641]
+    "coords": [-122.91142139416641, 48.523144110802974]
   },
   {
     "name": "Barry Karcher",
@@ -925,7 +925,7 @@
     "reason_tapped": "Lost too much weight",
     "season": "6",
     "items": [2, 4, 9, 0, 3, 16, 8, 10, 12, 6],
-    "coords": [40.5477, -105.0656]
+    "coords": [-105.0656, 40.5477]
   },
   {
     "name": "Nikki van Schyndel",
@@ -941,7 +941,7 @@
     "reason_tapped": "Low BMI/ lost too much weight",
     "season": "6",
     "items": [9, 3, 1, 2, 0, 16, 12, 6, 4, 8],
-    "coords": [50.75120632924617, -126.49553302437153]
+    "coords": [-126.49553302437153, 50.75120632924617]
   },
   {
     "name": "Michelle Wohlberg",
@@ -957,7 +957,7 @@
     "reason_tapped": "Constipation/possible impacted bowel",
     "season": "6",
     "items": [1, 17, 0, 2, 3, 6, 8, 11, 4, 16],
-    "coords": [53.0818319006769, -107.65875941385202]
+    "coords": [-107.65875941385202, 53.0818319006769]
   },
   {
     "name": "Brady Nicholls",
@@ -973,7 +973,7 @@
     "reason_tapped": "Missed his family",
     "season": "6",
     "items": [4, 0, 17, 1, 3, 2, 8, 6, 11, 11],
-    "coords": [29.4632, -98.5238]
+    "coords": [-98.5238, 29.4632]
   },
   {
     "name": "Ray Livingston",
@@ -989,7 +989,7 @@
     "reason_tapped": "Nothing left to give",
     "season": "6",
     "items": [17, 0, 1, 2, 3, 4, 6, 12, 8, 9],
-    "coords": [45.6366, -122.5967]
+    "coords": [-122.5967, 45.6366]
   },
   {
     "name": "Donny Dust",
@@ -1005,7 +1005,7 @@
     "reason_tapped": "Food poisoning",
     "season": "6",
     "items": [2, 12, 16, 0, 3, 11, 9, 4, 6, 1],
-    "coords": [39.0736, -104.8467]
+    "coords": [-104.8467, 39.0736]
   },
   {
     "name": "Tim Backus",
@@ -1021,7 +1021,7 @@
     "reason_tapped": "Broken ankle",
     "season": "6",
     "items": [12, 2, 1, 9, 6, 0, 4, 3, 21, 16],
-    "coords": [33.5657, -101.8879]
+    "coords": [-101.8879, 33.5657]
   },
   {
     "name": "Roland Welker",
@@ -1037,7 +1037,7 @@
     "reason_tapped": "Victor",
     "season": "7",
     "items": [4, 7, 3, 8, 1, 0, 17, 9, 12, 2],
-    "coords": [61.7735, -157.3461]
+    "coords": [-157.3461, 61.7735]
   },
   {
     "name": "Callie Russell",
@@ -1053,7 +1053,7 @@
     "reason_tapped": "Frostbite of the toes",
     "season": "7",
     "items": [1, 0, 9, 3, 4, 2, 8, 6, 12, 16],
-    "coords": [48.329021202304006, -114.21914381251072]
+    "coords": [-114.21914381251072, 48.329021202304006]
   },
   {
     "name": "Kielyn Marrone",
@@ -1069,7 +1069,7 @@
     "reason_tapped": "Starvation",
     "season": "7",
     "items": [8, 6, 7, 1, 3, 2, 16, 4, 12, 17],
-    "coords": [46.25, -81.7667]
+    "coords": [-81.7667, 46.25]
   },
   {
     "name": "Amós Rodriguez",
@@ -1085,7 +1085,7 @@
     "reason_tapped": "Starvation",
     "season": "7",
     "items": [12, 7, 6, 17, 1, 11, 4, 3, 16, 2],
-    "coords": [39.7771, -86.1458]
+    "coords": [-86.1458, 39.7771]
   },
   {
     "name": "Mark D'Ambrosio",
@@ -1101,7 +1101,7 @@
     "reason_tapped": "Missed his son Max",
     "season": "7",
     "items": [3, 2, 4, 16, 17, 0, 1, 8, 6, 12],
-    "coords": [45.6366, -122.5967]
+    "coords": [-122.5967, 45.6366]
   },
   {
     "name": "Joe Nicholas",
@@ -1117,7 +1117,7 @@
     "reason_tapped": "Starvation",
     "season": "7",
     "items": [16, 3, 6, 8, 5, 2, 0, 1, 9, 4],
-    "coords": [40.5698, -122.365]
+    "coords": [-122.365, 40.5698]
   },
   {
     "name": "Joel Van Der Loon",
@@ -1133,7 +1133,7 @@
     "reason_tapped": "Starvation",
     "season": "7",
     "items": [0, 12, 6, 8, 1, 17, 4, 3, 2, 7],
-    "coords": [44.2923, -121.5531]
+    "coords": [-121.5531, 44.2923]
   },
   {
     "name": "Keith Syers",
@@ -1149,7 +1149,7 @@
     "reason_tapped": "Food poisoning/ infection",
     "season": "7",
     "items": [9, 1, 12, 3, 4, 17, 6, 2, 16, 8],
-    "coords": [37.5466, -87.9879]
+    "coords": [-87.9879, 37.5466]
   },
   {
     "name": "Correy Hawk",
@@ -1165,7 +1165,7 @@
     "reason_tapped": "Torn Meniscus/ partially torn MCL",
     "season": "7",
     "items": [2, 3, 4, 6, 12, 8, 17, 16, 0, 1],
-    "coords": [41.0054, -95.894]
+    "coords": [-95.894, 41.0054]
   },
   {
     "name": "Shawn Helton",
@@ -1181,7 +1181,7 @@
     "reason_tapped": "Lost fire starter",
     "season": "7",
     "items": [4, 2, 0, 1, 17, 16, 6, 3, 23, 12],
-    "coords": [36.2011, -88.4114]
+    "coords": [-88.4114, 36.2011]
   },
   {
     "name": "Clay Hayes",
@@ -1197,7 +1197,7 @@
     "reason_tapped": "Victor",
     "season": "8",
     "items": [2, 3, 1, 0, 17, 12, 16, 6, 8, 4],
-    "coords": [46.614, -116.6543]
+    "coords": [-116.6543, 46.614]
   },
   {
     "name": "Biko Wright",
@@ -1213,7 +1213,7 @@
     "reason_tapped": "Starvation/heart palpitations",
     "season": "8",
     "items": [3, 2, 4, 17, 1, 0, 6, 8, 16, 12],
-    "coords": [45.024850108844014, -123.94530052073158]
+    "coords": [-123.94530052073158, 45.024850108844014]
   },
   {
     "name": "Theresa Emmerich Kamper",
@@ -1229,7 +1229,7 @@
     "reason_tapped": "Low BMI/lost too much weight",
     "season": "8",
     "items": [2, 3, 9, 0, 11, 4, 8, 12, 6, 16],
-    "coords": [50.72572496869326, -3.5272811424187527]
+    "coords": [-3.5272811424187527, 50.72572496869326]
   },
   {
     "name": "Colter Barnes",
@@ -1245,7 +1245,7 @@
     "reason_tapped": "Low BMI/ lost too much weight",
     "season": "8",
     "items": [2, 3, 1, 0, 10, 12, 8, 6, 17, 16],
-    "coords": [58.24888118718554, -136.32676577879315]
+    "coords": [-136.32676577879315, 58.24888118718554]
   },
   {
     "name": "Rose Anna Moore",
@@ -1261,7 +1261,7 @@
     "reason_tapped": "Frostbite/malnutrition",
     "season": "8",
     "items": [12, 2, 17, 6, 3, 8, 16, 0, 1, 4],
-    "coords": [41.7458, -77.3031]
+    "coords": [-77.3031, 41.7458]
   },
   {
     "name": "Nate Weber",
@@ -1277,7 +1277,7 @@
     "reason_tapped": "Food poisoning",
     "season": "8",
     "items": [2, 3, 4, 16, 8, 12, 6, 1, 0, 17],
-    "coords": [45.1547, -85.13]
+    "coords": [-85.13, 45.1547]
   },
   {
     "name": "Matt Corradino",
@@ -1293,7 +1293,7 @@
     "reason_tapped": "Missed his family",
     "season": "8",
     "items": [12, 6, 9, 0, 2, 16, 3, 5, 11, 8],
-    "coords": [17.73615414271478, -64.75805376462421]
+    "coords": [-64.75805376462421, 17.73615414271478]
   },
   {
     "name": "Michelle Finn",
@@ -1309,7 +1309,7 @@
     "reason_tapped": "Starvation",
     "season": "8",
     "items": [2, 3, 4, 17, 0, 1, 8, 6, 12, 16],
-    "coords": [44.608134410829145, -67.9236926326971]
+    "coords": [-67.9236926326971, 44.608134410829145]
   },
   {
     "name": "Jordon Bell",
@@ -1325,7 +1325,7 @@
     "reason_tapped": "Missed his family",
     "season": "8",
     "items": [2, 4, 3, 1, 0, 17, 8, 6, 12, 11],
-    "coords": [35.9639, -84.2938]
+    "coords": [-84.2938, 35.9639]
   },
   {
     "name": "Tim Madsen",
@@ -1341,7 +1341,7 @@
     "reason_tapped": "Anxiety attack/chest pains",
     "season": "8",
     "items": [2, 3, 4, 12, 17, 0, 1, 6, 16, 11],
-    "coords": [41.3099, -105.6085]
+    "coords": [-105.6085, 41.3099]
   },
   {
     "name": "Juan Pablo Quiñonez",
@@ -1357,7 +1357,7 @@
     "reason_tapped": "Victor",
     "season": "9",
     "items": [4, 16, 3, 1, 6, 0, 12, 2, 8, 17],
-    "coords": [50.1707, -95.9547]
+    "coords": [-95.9547, 50.1707]
   },
   {
     "name": "Karie Lee Knoke",
@@ -1373,7 +1373,7 @@
     "reason_tapped": "Starvation/exhaustion",
     "season": "9",
     "items": [16, 2, 3, 4, 6, 12, 8, 17, 1, 11],
-    "coords": [48.2822, -116.5614]
+    "coords": [-116.5614, 48.2822]
   },
   {
     "name": "Teimojin Tan",
@@ -1389,7 +1389,7 @@
     "reason_tapped": "Missed his family",
     "season": "9",
     "items": [2, 1, 17, 4, 3, 12, 16, 8, 6, 11],
-    "coords": [45.5027858548284, -73.57524364892426]
+    "coords": [-73.57524364892426, 45.5027858548284]
   },
   {
     "name": "Adam Riley",
@@ -1405,7 +1405,7 @@
     "reason_tapped": "Starvation",
     "season": "9",
     "items": [2, 10, 1, 0, 17, 4, 6, 3, 8, 12],
-    "coords": [36.0714, -94.1661]
+    "coords": [-94.1661, 36.0714]
   },
   {
     "name": "Jessie Krebs",
@@ -1421,7 +1421,7 @@
     "reason_tapped": "Stomach inflammation",
     "season": "9",
     "items": [2, 17, 4, 8, 0, 24, 3, 25, 16, 12],
-    "coords": [37.2675, -107.0307]
+    "coords": [-107.0307, 37.2675]
   },
   {
     "name": "Tom Garstang",
@@ -1437,7 +1437,7 @@
     "reason_tapped": "Fell/injured back and knee",
     "season": "9",
     "items": [12, 1, 16, 4, 8, 6, 3, 17, 2, 0],
-    "coords": [38.1579, -78.4688]
+    "coords": [-78.4688, 38.1579]
   },
   {
     "name": "Terry Burns",
@@ -1453,7 +1453,7 @@
     "reason_tapped": "Low BMI (lost too much weight)/parasitic infection",
     "season": "9",
     "items": [1, 2, 12, 6, 4, 16, 3, 8, 17, 0],
-    "coords": [59.653, -151.5255]
+    "coords": [-151.5255, 59.653]
   },
   {
     "name": "Benji Hill",
@@ -1469,7 +1469,7 @@
     "reason_tapped": "Giardia infection",
     "season": "9",
     "items": [2, 12, 17, 24, 3, 4, 1, 16, 8, 6],
-    "coords": [43.4684, -114.2551]
+    "coords": [-114.2551, 43.4684]
   },
   {
     "name": "Igor Limansky",
@@ -1485,7 +1485,7 @@
     "reason_tapped": "Heart palpitations/ exhaustion",
     "season": "9",
     "items": [2, 12, 17, 3, 4, 8, 6, 16, 0, 1],
-    "coords": [40.7776, -111.9311]
+    "coords": [-111.9311, 40.7776]
   },
   {
     "name": "Jacques Turcotte",
@@ -1501,7 +1501,7 @@
     "reason_tapped": "Missed his family",
     "season": "9",
     "items": [2, 1, 9, 17, 4, 12, 8, 6, 3, 11],
-    "coords": [58.4546, -134.1739]
+    "coords": [-134.1739, 58.4546]
   },
   {
     "name": "Alan Tenta",
@@ -1517,7 +1517,7 @@
     "winner": true,
     "season": "10",
     "items": [1, 0, 4, 6, 12, 2, 3, 16, 8, 17],
-    "coords": [51.04675662176316, -116.50527934477766]
+    "coords": [-116.50527934477766, 51.04675662176316]
   },
   {
     "name": "James \"Wyatt\" Black",
@@ -1533,7 +1533,7 @@
     "winner": false,
     "season": "10",
     "items": [3, 1, 0, 4, 2, 8, 16, 6, 12, 17],
-    "coords": [45.0333, -79.3]
+    "coords": [-79.3, 45.0333]
   },
   {
     "name": "Mikey Helton",
@@ -1549,7 +1549,7 @@
     "winner": false,
     "season": "10",
     "items": [1, 0, 4, 17, 6, 16, 3, 8, 12, 2],
-    "coords": [34.2662, -85.1863]
+    "coords": [-85.1863, 34.2662]
   },
   {
     "name": "Melanie Sawyer",
@@ -1565,7 +1565,7 @@
     "winner": false,
     "season": "10",
     "items": [12, 8, 6, 0, 17, 2, 3, 4, 11, 11],
-    "coords": [44.04681256428538, -73.50392462149956]
+    "coords": [-73.50392462149956, 44.04681256428538]
   },
   {
     "name": "Tarcisio \"Taz\" Ramos Dos Santos",
@@ -1581,7 +1581,7 @@
     "winner": false,
     "season": "10",
     "items": [2, 4, 3, 1, 17, 6, 16, 8, 12, 10],
-    "coords": [42.33171986568677, -73.0808634202899]
+    "coords": [-73.0808634202899, 42.33171986568677]
   },
   {
     "name": "Cade Cole",
@@ -1597,7 +1597,7 @@
     "winner": false,
     "season": "10",
     "items": [9, 17, 21, 6, 2, 12, 4, 8, 3, 22],
-    "coords": [43.3398, -109.2298]
+    "coords": [-109.2298, 43.3398]
   },
   {
     "name": "Jodi Rose",
@@ -1613,7 +1613,7 @@
     "winner": false,
     "season": "10",
     "items": [12, 6, 3, 16, 17, 8, 0, 1, 2, 4],
-    "coords": [44.0025, -107.9544]
+    "coords": [-107.9544, 44.0025]
   },
   {
     "name": "Luke Joseph Olsen",
@@ -1629,7 +1629,7 @@
     "winner": false,
     "season": "10",
     "items": [24, 2, 3, 7, 8, 12, 17, 0, 6, 21],
-    "coords": [20.79626205988446, -156.33255711921836]
+    "coords": [-156.33255711921836, 20.79626205988446]
   },
   {
     "name": "Ann Rosenquist",
@@ -1645,7 +1645,7 @@
     "winner": false,
     "season": "10",
     "items": [2, 0, 8, 16, 17, 1, 3, 6, 12, 4],
-    "coords": [46.8142, -90.8228]
+    "coords": [-90.8228, 46.8142]
   },
   {
     "name": "Lee Ray DeWilden",
@@ -1661,6 +1661,6 @@
     "winner": false,
     "season": "10",
     "items": [16, 2, 3, 4, 6, 12, 8, 17, 1, 0],
-    "coords": [65.7001, -156.3386]
+    "coords": [-156.3386, 65.7001]
   }
 ]

@@ -1,10 +1,8 @@
 import { SegmentedControl } from "@mantine/core";
 
 interface NavbarProps {
-  onChange:
-    | ((value: "items" | "survived" | "/" | undefined) => void)
-    | undefined;
-  value: "items" | "survived" | "/" | undefined;
+  onChange: ((value: string | undefined) => void) | undefined;
+  value: string | undefined;
 }
 
 function Navbar({ onChange, value }: NavbarProps) {
@@ -18,6 +16,7 @@ function Navbar({ onChange, value }: NavbarProps) {
         { label: "Home", value: "/" },
         { label: "Days survived", value: "survived" },
         { label: "Items", value: "items" },
+        { label: "Locations", value: "map" },
       ]}
     />
   );
