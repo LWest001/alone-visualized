@@ -1,4 +1,3 @@
-import React from "react";
 import items from "../assets/items.json";
 import { List, ListItem, Text } from "@mantine/core";
 
