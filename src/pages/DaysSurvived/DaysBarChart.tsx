@@ -14,7 +14,7 @@ export interface ChartTooltipProps {
 }
 
 export function DaysBarChart() {
-  const [filter, setFilter] = useState<string | undefined>();
+  const [filter, setFilter] = useState<string[]>([]);
   const [searchParams, setSearchParams] = useSearchParams();
   const season = searchParams.get("s");
 
@@ -24,12 +24,14 @@ export function DaysBarChart() {
     }
   }, [searchParams, season, setSearchParams]);
 
-  function handleFilter(val: string[]) {
-    setFilter((prev) => (prev === val[1] ? undefined : val[1]));
+  function handleFilter(val: string) {
+    console.log(val)
+    console.log(filter)
+    setFilter([val]);
   }
 
   function handleChangeSeason(val: string) {
-    setFilter(undefined);
+    setFilter([]);
     setSearchParams({ s: val });
   }
   return (
@@ -40,7 +42,11 @@ export function DaysBarChart() {
           onChange={handleChangeSeason}
         />
         {season === "All" && (
-          <Chip.Group value={[filter]} onChange={handleFilter} multiple>
+          <Chip.Group
+            multiple
+            value={filter}
+            onChange={(val) => handleFilter(val?.[1] || val?.[0])}
+          >
             <Group>
               <Chip value={"winner"} color="orange">
                 Winner
@@ -57,9 +63,9 @@ export function DaysBarChart() {
           season === "All"
             ? data
                 .filter((c) =>
-                  filter === "medically_evacuated"
+                  filter[0] === "medically_evacuated"
                     ? c.medically_evacuated === true
-                    : filter === "winner"
+                    : filter[0] === "winner"
                     ? c.winner === true
                     : c
                 )
@@ -71,7 +77,7 @@ export function DaysBarChart() {
         h={
           season === "All" && filter === undefined
             ? 2500
-            : filter === "medically_evacuated"
+            : filter[0] === "medically_evacuated"
             ? 800
             : 400
         }

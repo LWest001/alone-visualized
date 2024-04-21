@@ -22,7 +22,7 @@ function Map() {
   const markers = contestants.map((c) => {
     return (
       <Marker
-        coordinates={c.coords}
+        coordinates={c.coords as [number, number]}
         key={c.name}
         onClick={() => setActive(c)}
         stroke="black"
@@ -65,7 +65,7 @@ function Map() {
                     fill="white"
                     key={geo.rsmKey}
                     geography={geo}
-                    onClick={()=>setActive(undefined)}
+                    onClick={() => setActive(undefined)}
                     style={{
                       pressed: { fill: "#00ff00", stroke: "#00ff00" },
                       hover: { fill: "#00ff00" },

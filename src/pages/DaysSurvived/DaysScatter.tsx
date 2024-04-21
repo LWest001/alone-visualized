@@ -1,5 +1,15 @@
 import { ScatterChart } from "@mantine/charts";
-import data from "../../assets/contestantgroups.json";
+import dataJson from "../../assets/contestantgroups.json";
+
+const data = dataJson.map((s) => {
+  return {
+    name: s.name,
+    color: s.color,
+    data: s.data.map((c) => {
+      return { status: c.status, season: Number(c.season) };
+    }),
+  };
+});
 
 export function DaysScatter() {
   return (

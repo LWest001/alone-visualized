@@ -11,5 +11,5 @@ export interface Contestant {
   reason_tapped: string;
   season: string;
   items: number[];
-  coords: [number, number];
+  coords: number[];
 }
