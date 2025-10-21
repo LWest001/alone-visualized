@@ -1,4 +1,4 @@
-import { Box, Center, Notification, Stack } from "@mantine/core";
+import { Box, Center, Stack, Text } from "@mantine/core";
 import {
   ComposableMap,
   Geographies,
@@ -18,7 +18,6 @@ const countriesGeo =
   "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 function Map() {
-  const [hidden, setHidden] = useState<boolean>(false);
   const [active, setActive] = useState<Contestant | undefined>();
   const markers = contestants.map((c) => {
     return (
@@ -45,13 +44,11 @@ function Map() {
 
   return (
     <Stack mah="100%">
-      <Notification
-        closeButtonProps={{ "aria-label": "Hide notification" }}
-        onClose={() => setHidden(true)}
-        display={hidden ? "none" : "flex"}
-      >
-        Try clicking on a map marker!
-      </Notification>
+      <Text>
+        Explore where Alone contestants are from and see how their home regions
+        span across the map. You can click on a marker to see who it represents,
+        then click again to hide the contestant.
+      </Text>
       {active && (
         <Box onClick={() => setActive(undefined)}>
           <ChartTooltip

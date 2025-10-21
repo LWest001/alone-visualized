@@ -51,7 +51,7 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
         </Stack>
         {s === "All" && (
           <Badge pos="absolute" top={5} right={5} color="green">
-            {payload.season}
+            S.{payload.season}
           </Badge>
         )}
       </Card.Section>

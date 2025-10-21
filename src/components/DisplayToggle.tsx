@@ -14,6 +14,7 @@ function DisplayToggle({ toggleState, onClick }: DisplayToggleProps) {
       px={4}
       m={0}
       radius={"100%"}
+      aria-roledescription="Toggle item selection list"
     >
       {toggleState ? <IconEye /> : <IconEyeClosed />}
     </ActionIcon>

@@ -1,4 +1,4 @@
-import { SegmentedControl } from "@mantine/core";
+import { SegmentedControl, Space, Text } from "@mantine/core";
 import { IconChartBar, IconChartScatter } from "@tabler/icons-react";
 import { Outlet, To, useNavigate, useParams } from "react-router-dom";
 import { DaysBarChart } from "./DaysBarChart";
@@ -29,6 +29,13 @@ function DaysSurvived() {
 
   return (
     <>
+      <Text>
+        See how long each contestant lasted in the wild, and compare survival
+        times across seasons. Use the chart selector to see either an
+        interactive bar chart or a scatter plot that allows you to compare all
+        seasons at once. Hover over the bar chart to meet each contestant.
+      </Text>
+      <Space h={15} />
       <SegmentedControl
         value={chart}
         data={[
@@ -38,6 +45,7 @@ function DaysSurvived() {
         onChange={onChange}
         w="fit-content"
       />
+      <Space h={15} />
       {chart === "bar" ? <DaysBarChart /> : <DaysScatter />}
       <Outlet />
     </>

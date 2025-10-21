@@ -87,6 +87,12 @@ export function ItemsBarChart() {
   }
   return (
     <Stack>
+      <Text>
+        Discover which ten survival items contestants chose to bring — and how
+        their choices stacked up against others. Note that contestants can
+        choose multiple of the same item, so the item may be selected more time
+        than there are contestants for the season.
+      </Text>
       <Paper withBorder p="sm">
         <SeasonSelector
           active={season || undefined}
