@@ -7,7 +7,7 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 import contestants from "../assets/contestants.json";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { Contestant } from "../contestant";
 import { ChartTooltip } from "./DaysSurvived/ChartTooltip";
 
@@ -19,6 +19,14 @@ const countriesGeo =
 
 function Map() {
   const [active, setActive] = useState<Contestant | undefined>();
+
+  const isActive = useCallback(
+    (c: Contestant) => {
+      return active?.name === c?.name;
+    },
+    [active]
+  );
+
   const markers = contestants.map((c) => {
     return (
       <Marker
@@ -27,15 +35,11 @@ function Map() {
         onClick={() => setActive(c)}
         stroke="black"
         strokeWidth={".5"}
-        style={{
-          pressed: {
-            fill: "#00ff00",
-          },
-        }}
+        cursor={"pointer"}
       >
         <circle
-          r={2}
-          fill={active?.name !== c.name ? "#F53" : "#00ff00"}
+          r={!isActive(c) ? 5 : 3}
+          fill={!isActive(c) ? "#F53" : "#00ff00"}
           display={"flex"}
         />
       </Marker>
@@ -43,7 +47,7 @@ function Map() {
   });
 
   return (
-    <Stack mah="100%">
+    <Stack h="100%">
       <Text>
         Explore where Alone contestants are from and see how their home regions
         span across the map. You can click on a marker to see who it represents,
@@ -54,7 +58,11 @@ function Map() {
           <ChartTooltip
             label={active?.name}
             payload={active}
-            style={{ position: "fixed", top: "50%", left: "50%" }}
+            style={{
+              position: "fixed",
+              right: "10%",
+              bottom: "10%",
+            }}
           />
         </Box>
       )}
@@ -75,8 +83,7 @@ function Map() {
                     geography={geo}
                     onClick={() => setActive(undefined)}
                     style={{
-                      pressed: { fill: "#00ff00", stroke: "#00ff00" },
-                      hover: { fill: "#00ff00" },
+                      hover: { fill: "lightgray" },
                     }}
                   />
                 ))

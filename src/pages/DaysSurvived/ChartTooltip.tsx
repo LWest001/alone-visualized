@@ -21,7 +21,6 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
       radius="md"
       withBorder
       className="ChartTooltip"
-      maw={"calc(60vw)"}
       style={style}
     >
       <Card.Section>

@@ -90,6 +90,9 @@ return (
           <ChartTooltip
             label={item?.payload?.[0]?.payload.name}
             payload={item?.payload?.[0]?.payload}
+            style={{
+              maxWidth: "70vw",
+            }}
           />
         ),
         position: { x: undefined },
