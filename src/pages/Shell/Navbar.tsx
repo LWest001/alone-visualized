@@ -14,9 +14,9 @@ function Navbar({ onChange, value }: NavbarProps) {
       onChange={onChange}
       data={[
         { label: "Home", value: "/" },
-        { label: "Days survived", value: "survived" },
-        { label: "Items", value: "items" },
-        { label: "Locations", value: "map" },
+        { label: "Survival Duration", value: "survived" },
+        { label: "Gear Choices", value: "items" },
+        { label: "Hometowns Map", value: "map" },
       ]}
     />
   );

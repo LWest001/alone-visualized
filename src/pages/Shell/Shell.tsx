@@ -89,18 +89,28 @@ export function Shell() {
                 Channel’s survival series Alone through interactive data
                 visualizations. Each section highlights a different aspect of
                 the show’s data:
+                <Space h={20} />
                 <List>
-                  <ListItem>
-                    Survival Duration: Compare how long contestants lasted
-                    across seasons and conditions.
+                  <ListItem key="duration">
+                    <Text fw={700} component="span">
+                      Survival Duration:{" "}
+                    </Text>
+                    Compare how long contestants lasted across seasons and
+                    conditions.
                   </ListItem>
-                  <ListItem>
-                    Gear Choices: Examine which survival items participants
-                    chose — and which proved most common or successful.
+                  <ListItem key="gear">
+                    <Text fw={700} component="span">
+                      Gear Choices:{" "}
+                    </Text>
+                    Examine which survival items participants chose — and which
+                    proved most common or successful.
                   </ListItem>
-                  <ListItem>
-                    Hometowns Map: Visualize where contestants hail from,
-                    revealing regional trends and backgrounds.
+                  <ListItem key="map">
+                    <Text fw={700} component="span">
+                      Hometowns Map:{" "}
+                    </Text>
+                    Visualize where contestants hail from, revealing regional
+                    trends and backgrounds.
                   </ListItem>
                 </List>
                 <Space h={20} />
