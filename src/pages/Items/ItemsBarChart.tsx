@@ -13,7 +13,7 @@ import contestants from "../../assets/contestants.json";
 import items from "../../assets/items.json";
 import { useSearchParams } from "react-router-dom";
 import { Contestant } from "../../contestant";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import DisplayToggle from "../../components/DisplayToggle";
 import { useDisclosure } from "@mantine/hooks";
 import SeasonSelector from "../../components/SeasonSelector";
@@ -76,15 +76,10 @@ export function ItemsBarChart() {
     return itemsWithCounts;
   }, [season]);
 
-  useEffect(() => {
-    if (!season) {
-      setSearchParams({ ...searchParams, s: "All" });
-    }
-  }, [searchParams, season, setSearchParams]);
-
   function handleChangeSeason(val: string) {
     setSearchParams({ s: val });
   }
+
   return (
     <Stack>
       <Text>

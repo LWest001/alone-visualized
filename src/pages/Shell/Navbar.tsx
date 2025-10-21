@@ -2,10 +2,16 @@ import { SegmentedControl } from "@mantine/core";
 
 interface NavbarProps {
   onChange: ((value: string | undefined) => void) | undefined;
-  value: string | undefined;
 }
 
-function Navbar({ onChange, value }: NavbarProps) {
+function Navbar({ onChange }: NavbarProps) {
+  const value = location.href.includes("survived")
+    ? "survived"
+    : location.href.includes("items")
+    ? "items"
+    : location.href.includes("map")
+    ? "map"
+    : "/";
   return (
     <SegmentedControl
       value={value}

@@ -1,9 +1,18 @@
 import { SegmentedControl, Stack, Text } from "@mantine/core";
+import { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 interface SeasonSelectorProps {
   active: string | undefined;
   onChange: (val: string) => void;
 }
 function SeasonSelector({ active, onChange }: SeasonSelectorProps) {
+    const [searchParams, setSearchParams] = useSearchParams();
+    const season = searchParams.get("s");
+    useEffect(() => {
+      if (!season) {
+        setSearchParams({ ...searchParams, s: "All" });
+      }
+    }, [searchParams, season, setSearchParams]);
   return (
     <Stack w="100%" mb="md">
       <Text fz="lg">Season</Text>

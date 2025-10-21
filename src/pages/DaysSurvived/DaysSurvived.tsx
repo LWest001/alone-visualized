@@ -3,8 +3,7 @@ import { IconChartBar, IconChartScatter } from "@tabler/icons-react";
 import { Outlet, To, useNavigate, useParams } from "react-router-dom";
 import { DaysBarChart } from "./DaysBarChart";
 import { DaysScatter } from "./DaysScatter";
-import { useCallback, useContext, useEffect } from "react";
-import { ActiveContext } from "../Shell/Shell";
+import { useCallback, useEffect } from "react";
 
 function DaysSurvived() {
   const navigate = useNavigate();
@@ -13,19 +12,12 @@ function DaysSurvived() {
     (val: To) => navigate(`/survived/${val}`, { replace: false }),
     [navigate]
   );
-  const [active, setActive] = useContext(ActiveContext);
 
   useEffect(() => {
     if (!chart) {
       onChange("bar");
     }
   }, [chart, onChange]);
-
-  useEffect(() => {
-    if (active !== "survived" && setActive) {
-      setActive("survived");
-    }
-  }, [active, setActive]);
 
   return (
     <>

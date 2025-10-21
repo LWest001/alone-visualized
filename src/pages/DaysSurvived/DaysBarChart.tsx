@@ -3,7 +3,7 @@ import { Chip, Group, MantineStyleProp, Paper, Stack } from "@mantine/core";
 import data from "../../assets/contestants.json";
 import { useSearchParams } from "react-router-dom";
 import { Contestant } from "../../contestant";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { ChartTooltip } from "./ChartTooltip";
 import SeasonSelector from "../../components/SeasonSelector";
 
@@ -18,15 +18,8 @@ export function DaysBarChart() {
   const [searchParams, setSearchParams] = useSearchParams();
   const season = searchParams.get("s");
 
-  useEffect(() => {
-    if (!season) {
-      setSearchParams({ ...searchParams, s: "All" });
-    }
-  }, [searchParams, season, setSearchParams]);
 
   function handleFilter(val: string) {
-    console.log(val)
-    console.log(filter)
     setFilter([val]);
   }
 
