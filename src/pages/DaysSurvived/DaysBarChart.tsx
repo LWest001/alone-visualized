@@ -30,8 +30,6 @@ export function DaysBarChart() {
     setFilter([val]);
   }
 
-console.log(filter);
-
 function handleChangeSeason(val: string) {
   setFilter([]);
   setSearchParams({ s: val });

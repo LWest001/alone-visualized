@@ -1,4 +1,4 @@
-import { Center, Stack } from "@mantine/core";
+import { Box, Center, Notification, Stack } from "@mantine/core";
 import {
   ComposableMap,
   Geographies,
@@ -18,6 +18,7 @@ const countriesGeo =
   "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 function Map() {
+  const [hidden, setHidden] = useState<boolean>(false);
   const [active, setActive] = useState<Contestant | undefined>();
   const markers = contestants.map((c) => {
     return (
@@ -41,14 +42,24 @@ function Map() {
       </Marker>
     );
   });
+
   return (
     <Stack mah="100%">
+      <Notification
+        closeButtonProps={{ "aria-label": "Hide notification" }}
+        onClose={() => setHidden(true)}
+        display={hidden ? "none" : "flex"}
+      >
+        Try clicking on a map marker!
+      </Notification>
       {active && (
-        <ChartTooltip
-          label={active?.name}
-          payload={active}
-          style={{ position: "fixed", top: "50%", left: "50%" }}
-        />
+        <Box onClick={() => setActive(undefined)}>
+          <ChartTooltip
+            label={active?.name}
+            payload={active}
+            style={{ position: "fixed", top: "50%", left: "50%" }}
+          />
+        </Box>
       )}
       <Center>
         <ComposableMap
