@@ -1,4 +1,16 @@
-import { AppShell, Burger, Flex, Group, Image } from "@mantine/core";
+import {
+  AppShell,
+  Box,
+  Burger,
+  Flex,
+  Group,
+  Image,
+  List,
+  ListItem,
+  Space,
+  Text,
+  Title,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -7,17 +19,13 @@ import { createContext, useEffect, useState } from "react";
 export const ActiveContext = createContext<
   [
     string | undefined,
-    React.Dispatch<
-      React.SetStateAction<string | undefined>
-    > | null
+    React.Dispatch<React.SetStateAction<string | undefined>> | null
   ]
 >([undefined, null]);
 
 export function Shell() {
   const [opened, { toggle }] = useDisclosure();
-  const [active, setActive] = useState<string | undefined>(
-    undefined
-  );
+  const [active, setActive] = useState<string | undefined>(undefined);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -61,7 +69,7 @@ export function Shell() {
             />
             <Flex h="100%" p="md">
               <Link to="/" onChange={() => onChange("/")}>
-                <Image src="/logo.png" height={"100%"} />
+                <Image src="/logo.png" height={"100%"} fit="contain" />
               </Link>
             </Flex>
           </Group>
@@ -73,6 +81,34 @@ export function Shell() {
 
         <AppShell.Main h="100%">
           <Outlet />
+          {location.pathname === "/" && (
+            <Box>
+              <Title order={2}>Welcome to Alone: Visualized</Title>
+              <Text>
+                This site explores patterns and insights from the History
+                Channel’s survival series Alone through interactive data
+                visualizations. Each section highlights a different aspect of
+                the show’s data:
+                <List>
+                  <ListItem>
+                    Survival Duration: Compare how long contestants lasted
+                    across seasons and conditions.
+                  </ListItem>
+                  <ListItem>
+                    Gear Choices: Examine which survival items participants
+                    chose — and which proved most common or successful.
+                  </ListItem>
+                  <ListItem>
+                    Hometowns Map: Visualize where contestants hail from,
+                    revealing regional trends and backgrounds.
+                  </ListItem>
+                </List>
+                <Space h={20} />
+                Explore the tabs in the menu to dive into the data and uncover
+                what it takes to endure the wild.
+              </Text>
+            </Box>
+          )}
         </AppShell.Main>
       </AppShell>
     </ActiveContext.Provider>
