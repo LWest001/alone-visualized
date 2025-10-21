@@ -20,13 +20,14 @@ export function DaysBarChart() {
 
 
   function handleFilter(val: string) {
-    setFilter([val]);
+    setFilter(val ? [val] : []);
   }
 
-function handleChangeSeason(val: string) {
-  setFilter([]);
-  setSearchParams({ s: val });
-}
+  function handleChangeSeason(val: string) {
+    setFilter([]);
+    setSearchParams({ s: val });
+  }
+
 return (
   <Stack>
     <Paper withBorder p="sm">
