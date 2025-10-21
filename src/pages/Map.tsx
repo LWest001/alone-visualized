@@ -59,8 +59,6 @@ function Map() {
               coordinates={c.coords as [number, number]}
               key={c.name}
               onClick={() => setActive(c)}
-              // stroke="black"
-              // strokeWidth={".5"}
               cursor={"pointer"}
             >
               <circle
@@ -115,6 +113,7 @@ function Map() {
               position: "fixed",
               right: "10%",
               bottom: "10%",
+              zIndex: 10000000,
             }}
           />
         </Box>
