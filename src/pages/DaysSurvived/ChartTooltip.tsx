@@ -42,7 +42,7 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
           mb={-60}
         >
           <Text>
-            {label.replace("(S5)", "")}, {payload.age}
+            {label.replace(" (S5)", "")}, {payload.age}
           </Text>
           <Text fz="sm">
             {payload.hometown}, {payload["state/province"]}
