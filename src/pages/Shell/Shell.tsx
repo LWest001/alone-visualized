@@ -61,13 +61,13 @@ export function Shell() {
       >
         <AppShell.Header>
           <Group h="100%">
-            <Burger
-              opened={opened}
-              onClick={toggle}
-              hiddenFrom="sm"
-              size="sm"
-            />
             <Flex h="100%" p="md">
+              <Burger
+                opened={opened}
+                onClick={toggle}
+                hiddenFrom="sm"
+                size="sm"
+              />
               <Link to="/" onChange={() => onChange("/")}>
                 <Image src="/logo.png" height={"100%"} fit="contain" />
               </Link>

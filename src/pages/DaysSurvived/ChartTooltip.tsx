@@ -49,7 +49,7 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
             {payload.hometown}, {payload["state/province"]}
           </Text>
         </Stack>
-        {s === "All" && (
+        {(s === "All" || !s) && (
           <Badge pos="absolute" top={5} right={5} color="green">
             S.{payload.season}
           </Badge>
