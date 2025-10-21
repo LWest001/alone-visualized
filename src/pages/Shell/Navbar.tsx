@@ -6,6 +6,7 @@ interface NavbarProps {
 }
 
 function Navbar({ onChange, value }: NavbarProps) {
+  console.log(value);
   return (
     <SegmentedControl
       value={value}

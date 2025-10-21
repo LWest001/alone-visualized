@@ -68,7 +68,7 @@ export function Shell() {
                 hiddenFrom="sm"
                 size="sm"
               />
-              <Link to="/" onChange={() => onChange("/")}>
+              <Link to="/" onClick={() => onChange("/")}>
                 <Image src="/logo.png" height={"100%"} fit="contain" />
               </Link>
             </Flex>
