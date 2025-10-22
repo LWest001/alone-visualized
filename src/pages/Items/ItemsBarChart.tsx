@@ -1,7 +1,9 @@
 import { BarChart } from "@mantine/charts";
 import {
+  Badge,
   Box,
   Button,
+  Card,
   Checkbox,
   Group,
   Paper,
@@ -49,6 +51,19 @@ export function ItemsBarChart() {
         : -1,
     [sort]
   );
+
+  const getItemPropByName = (
+    itemName: string,
+    prop: keyof (typeof items)[never]
+  ) => {
+    const item = items.find((item) => item.name === itemName);
+    if (item) {
+      return item[prop];
+    }
+  };
+
+  const getItemCountByName = (itemName: string) =>
+    data.find((item) => item.name === itemName)?.count;
 
   const data = useMemo(() => {
     const itemsWithCounts: {
@@ -170,6 +185,24 @@ export function ItemsBarChart() {
         }}
         tooltipProps={{
           position: { x: undefined },
+          content: (content) => {
+            return (
+              <Card maw={200}>
+                <Stack gap={10}>
+                  <Text fw={700}>
+                    {content?.label && capitalize(String(content.label))}
+                  </Text>
+                  <Badge>
+                    {getItemCountByName(String(content?.label))} selections
+                  </Badge>
+                  <Text>
+                    {content?.label &&
+                      getItemPropByName(String(content.label), "description")}
+                  </Text>
+                </Stack>
+              </Card>
+            );
+          },
         }}
         referenceLines={
           season !== "All"
