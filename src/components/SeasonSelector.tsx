@@ -6,6 +6,7 @@ interface SeasonSelectorProps {
   onChange: (val: string) => void;
 }
 function SeasonSelector({ active, onChange }: SeasonSelectorProps) {
+  
     const [searchParams, setSearchParams] = useSearchParams();
     const season = searchParams.get("s");
     useEffect(() => {
@@ -13,6 +14,7 @@ function SeasonSelector({ active, onChange }: SeasonSelectorProps) {
         setSearchParams({ ...searchParams, s: "All" });
       }
     }, [searchParams, season, setSearchParams]);
+  
   return (
     <Stack w="100%" mb="md">
       <Text fz="lg">Season</Text>
