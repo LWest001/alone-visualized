@@ -79,6 +79,7 @@ return (
       xAxisProps={{ domain: [0, 100] }}
       yAxisProps={{ interval: 0 }}
       gridAxis="xy"
+      tooltipAnimationDuration={50}
       tooltipProps={{
         content: (item) => (
           <ChartTooltip

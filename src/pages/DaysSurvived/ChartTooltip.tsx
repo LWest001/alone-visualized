@@ -10,10 +10,10 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
   function getItemName(id: number) {
     return items.find((item) => item.id === id)?.name;
   }
-
   const itemNames = payload.items.map((id) => getItemName(id)).sort();
-
   const { season, name } = payload;
+  const imgUrl = `/profpics/${season}/${name.replaceAll('"', "")}.jpg`;
+
   return (
     <Card
       shadow="sm"
@@ -24,11 +24,7 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
       style={style}
     >
       <Card.Section>
-        <Image
-          src={`/profpics/${season}/${name.replaceAll('"', "")}.jpg`}
-          height={200}
-          pos={"relative"}
-        />
+        <Image src={imgUrl} height={200} pos={"relative"} />
         <Stack
           gap={0}
           p="xs"
