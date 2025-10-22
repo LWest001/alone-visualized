@@ -187,10 +187,13 @@ export function ItemsBarChart() {
           position: { x: undefined },
           content: (content) => {
             return (
-              <Card maw={200}>
+              <Card maw={240}>
                 <Stack gap={10}>
                   <Text fw={700}>
-                    {content?.label && capitalize(String(content.label))}
+                    {content?.label &&
+                      capitalize(String(content.label)) +
+                        " " +
+                        getItemPropByName(String(content.label), "emoji")}
                   </Text>
                   <Badge>
                     {getItemCountByName(String(content?.label))} selections

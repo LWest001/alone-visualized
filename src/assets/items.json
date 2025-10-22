@@ -2,131 +2,157 @@
   {
     "id": 0,
     "name": "saw",
-    "description": "Tool with serrated blade for cutting wood or materials."
+    "description": "Tool with serrated blade for cutting wood or materials.",
+    "emoji": "🪚"
   },
   {
     "id": 1,
     "name": "axe",
-    "description": "Tool with heavy blade for chopping wood or trees."
+    "description": "Tool with heavy blade for chopping wood or trees.",
+    "emoji": "🪓"
   },
   {
     "id": 2,
     "name": "sleeping bag",
-    "description": "Insulated sack for sleeping outdoors or camping."
+    "description": "Insulated sack for sleeping outdoors or camping.",
+    "emoji": "💤"
   },
   {
     "id": 3,
     "name": "cooking pot",
-    "description": "Container for boiling or cooking food over heat."
+    "description": "Container for boiling or cooking food over heat.",
+    "emoji": "🥘"
   },
   {
     "id": 4,
     "name": "ferro rod",
-    "description": "Metal rod that sparks to start fires easily."
+    "description": "Metal rod that sparks to start fires easily.",
+    "emoji": "🔥"
   },
   {
     "id": 5,
     "name": "canteen",
-    "description": "Portable container used for carrying drinking water."
+    "description": "Portable container used for carrying drinking water.",
+    "emoji": "💧"
   },
   {
     "id": 6,
     "name": "fishing line and hooks",
-    "description": "Gear used to catch fish in water."
+    "description": "Gear used to catch fish in water.",
+    "emoji": "🎣"
   },
   {
     "id": 7,
     "name": "gill net",
-    "description": "Fishing net that traps fish by their gills."
+    "description": "Fishing net that traps fish by their gills.",
+    "emoji": "🐟"
   },
   {
     "id": 8,
     "name": "wire",
-    "description": "Thin metal strand used for binding or trapping."
+    "description": "Thin metal strand used for binding or trapping.",
+    "emoji": "➰"
   },
   {
     "id": 9,
     "name": "knife",
-    "description": "Sharp-edged tool for cutting or carving materials."
+    "description": "Sharp-edged tool for cutting or carving materials.",
+    "emoji": "🔪"
   },
   {
     "id": 10,
     "name": "tarp",
-    "description": "Waterproof sheet for shelter or ground cover."
+    "description": "Waterproof sheet for shelter or ground cover.",
+    "emoji": ""
   },
   {
     "id": 11,
     "name": "food rations",
-    "description": "Pre-measured supplies of food for survival."
+    "description": "Pre-measured supplies of food for survival.",
+    "emoji": "🍕"
   },
   {
     "id": 12,
     "name": "bow with 6 arrows",
-    "description": "Weapon using string tension to shoot arrows."
+    "description": "Weapon using string tension to shoot arrows.",
+    "emoji": "🏹"
   },
   {
     "id": 13,
     "name": "slinghsot",
-    "description": "Y-shaped device launching projectiles with elastic bands."
+    "description": "Y-shaped device launching projectiles with elastic bands.",
+    "emoji": ""
   },
   {
     "id": 14,
     "name": "bivy bag",
-    "description": "Waterproof cover providing minimal sleeping shelter."
+    "description": "Waterproof cover providing minimal sleeping shelter.",
+    "emoji": ""
   },
   {
     "id": 15,
     "name": "sharpening stone",
-    "description": "Abrasive stone used to hone blade edges."
+    "description": "Abrasive stone used to hone blade edges.",
+    "emoji": "🪨"
   },
   {
     "id": 16,
     "name": "paracord",
-    "description": "Strong lightweight cord used for tying or repairs."
+    "description": "Strong lightweight cord used for tying or repairs.",
+    "emoji": "🪢"
   },
   {
     "id": 17,
     "name": "multitool",
-    "description": "Compact device combining multiple small tools in one."
+    "description": "Compact device combining multiple small tools in one.",
+    "emoji": "🛠️"
   },
   {
     "id": 18,
     "name": "skillet",
-    "description": "Flat frying pan for cooking food over heat."
+    "description": "Flat frying pan for cooking food over heat.",
+    "emoji": "🍳"
   },
   {
     "id": 19,
     "name": "climbing rope",
-    "description": "Strong rope used for climbing or securing loads."
+    "description": "Strong rope used for climbing or securing loads.",
+    "emoji": ""
   },
   {
     "id": 20,
     "name": "hammock",
-    "description": "Suspended fabric bed hung between two supports."
+    "description": "Suspended fabric bed hung between two supports.",
+    "emoji": ""
   },
   {
     "id": 21,
     "name": "shovel",
-    "description": "Tool with broad blade for digging or scooping."
+    "description": "Tool with broad blade for digging or scooping.",
+    "emoji": "🪏"
   },
   {
     "id": 22,
     "name": "soap",
-    "description": "Cleansing substance used for washing and hygiene."
+    "description": "Cleansing substance used for washing and hygiene.",
+    "emoji": "🧼"
   },
   {
     "id": 23,
     "name": "scotch-eyed auger",
-    "description": "Hand drill for boring holes in wood."
+    "description": "Hand drill for boring holes in wood.",
+    "emoji": "🕳️"
   },
   {
     "id": 24,
     "name": "salt",
-    "description": "Mineral used for flavoring food or preservation."
+    "description": "Mineral used for flavoring food or preservation.",
+    "emoji": "🧂"
   },
   {
     "id": 25,
     "name": "machete",
-    "description": "Large blade for chopping vegetation or clearing paths."
+    "description": "Large blade for chopping vegetation or clearing paths.",
+    "emoji": "🗡️"
   }
 ]
