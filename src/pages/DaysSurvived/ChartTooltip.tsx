@@ -22,6 +22,7 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
       withBorder
       className="ChartTooltip"
       style={style}
+      mah={"min-content"}
     >
       <Card.Section>
         <Image src={imgUrl} height={200} pos={"relative"} />
