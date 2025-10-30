@@ -1,4 +1,4 @@
-import { Box, Center, Paper, Stack, Text } from "@mantine/core";
+import { Box, Center, Paper, RangeSlider, Stack, Text } from "@mantine/core";
 import {
   ComposableMap,
   Geographies,
@@ -33,6 +33,9 @@ const colorMap = {
 };
 
 function Map() {
+  const [survivalTimeRange, setSurvivalTimeRange] = useState<[number, number]>([
+    0, 100,
+  ]);
   const [searchParams, setSearchParams] = useSearchParams();
 
   function handleChangeSeason(val: string) {
@@ -50,45 +53,50 @@ function Map() {
     [active]
   );
 
-  const markers = useMemo(
-    () =>
-      contestants.map((c) => {
-        return (
-          (season === "All" || season === null || c.season === season) && (
-            <Marker
-              coordinates={c.coords as [number, number]}
-              key={c.name}
-              onClick={() => setActive(c)}
-              cursor={"pointer"}
-            >
-              <circle
-                r={!isActive(c) ? 5 : 3}
-                fill={
-                  !isActive(c)
-                    ? colorMap[
-                        c.season as
-                          | "1"
-                          | "2"
-                          | "3"
-                          | "4"
-                          | "5"
-                          | "6"
-                          | "7"
-                          | "8"
-                          | "9"
-                          | "10"
-                      ]
-                    : "white"
-                }
-                display={"flex"}
-                stroke={isActive(c) ? "black" : undefined}
-              />
-            </Marker>
-          )
-        );
-      }),
-    [isActive, season]
-  );
+  const markers = useMemo(() => {
+    const seasonFilteredContestants = contestants.filter(
+      (c) => season === "All" || season === null || c.season === season
+    );
+    const survivalTimeFilteredConstestants = seasonFilteredContestants.filter(
+      (c) =>
+        c.status >= Number(survivalTimeRange[0]) &&
+        c.status <= Number(survivalTimeRange[1])
+    );
+    return survivalTimeFilteredConstestants.map(
+      (c) =>
+        (season === "All" || season === null || c.season === season) && (
+          <Marker
+            coordinates={c.coords as [number, number]}
+            key={c.name}
+            onClick={() => setActive(c)}
+            cursor={"pointer"}
+          >
+            <circle
+              r={!isActive(c) ? 5 : 3}
+              fill={
+                !isActive(c)
+                  ? colorMap[
+                      c.season as
+                        | "1"
+                        | "2"
+                        | "3"
+                        | "4"
+                        | "5"
+                        | "6"
+                        | "7"
+                        | "8"
+                        | "9"
+                        | "10"
+                    ]
+                  : "white"
+              }
+              display={"flex"}
+              stroke={isActive(c) ? "black" : undefined}
+            />
+          </Marker>
+        )
+    );
+  }, [isActive, survivalTimeRange, season]);
 
   return (
     <Stack h="100%">
@@ -103,6 +111,15 @@ function Map() {
           active={season || undefined}
           onChange={handleChangeSeason}
         />
+
+        <Stack w="100%" mb="md">
+          <Text fz="lg">Survival Time</Text>
+          <RangeSlider
+            onChange={setSurvivalTimeRange}
+            minRange={1}
+            labelTransitionProps={{ duration: 150 }}
+          />
+        </Stack>
       </Paper>
       {active && (
         <Box onClick={() => setActive(undefined)}>
