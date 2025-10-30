@@ -69,8 +69,8 @@ export function ChartTooltip({ label, payload, style }: ChartTooltipProps) {
       <Stack gap={5} maw={355}>
         <Text fw="bold">10 chosen items</Text>
         <Group gap={1}>
-          {itemNames.map((name) => (
-            <Badge>{name}</Badge>
+          {itemNames.map((name, i) => (
+            <Badge key={(name || "unknown") + i}>{name}</Badge>
           ))}
         </Group>
       </Stack>
